@@ -16,10 +16,9 @@
     "AND",
     "TRANSLATER"
   ],
-  "bin": {  
- "tran": "./bin/index.js"  
-    },  
-
+  "bin": {
+    "tran": "./bin/index.js"
+  },
   "author": "SHAIK ABDUL RAHIMAN",
   "license": "ISC",
   "bugs": {
@@ -28,6 +27,7 @@
   "homepage": "https://github.com/a-b-d-u-l-r-a-h-i-m-a-n/A-simple-CLI-to-translate-between-two-languages#readme",
   "dependencies": {
     "git": "^0.1.5",
-    "nodemon": "^2.0.21"
+    "nodemon": "^2.0.21",
+    "yargs": "^17.7.1"
   }
 }
