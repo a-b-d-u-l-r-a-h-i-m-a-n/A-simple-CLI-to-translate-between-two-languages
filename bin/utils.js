@@ -125,4 +125,14 @@ module.exports.showAll=function(){
     for(let [key, value] of languages) {  
  console.log(key + "\\t\\t" + value + "\\n"); 
     }  
-}
+};
+module.exports.parseLanguge=function(language){
+    if(language.length==2){
+        return language;
+    }else if(languages.has(language)){
+        return languages.get(language);
+    }else{
+        console.log("language is not supported");
+    }
+};
+
