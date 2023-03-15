@@ -26,7 +26,9 @@
   },
   "homepage": "https://github.com/a-b-d-u-l-r-a-h-i-m-a-n/A-simple-CLI-to-translate-between-two-languages#readme",
   "dependencies": {
+    "@vitalets/google-translate-api": "^9.1.0",
     "git": "^0.1.5",
+    "google-translate-api": "^2.3.0",
     "nodemon": "^2.0.21",
     "yargs": "^17.7.1"
   }

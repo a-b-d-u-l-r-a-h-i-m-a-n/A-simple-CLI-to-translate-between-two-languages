@@ -12,6 +12,7 @@ module.exports.showHelp=function(){
     console.log('    -l, --languages\t' + '      ' + 'List all languages.' + '\t\t' + '[boolean]\r')  ;
     console.log('\t--help\t\t      ' + 'Show help.' + '\t\t\t' + '[boolean]\n')  ;
 };
+let languages = new Map();
 languages.set('afrikaans',      'af')  
 languages.set('albanian', 'sq')  
 languages.set('amharic', 'am')  
